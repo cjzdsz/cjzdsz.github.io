@@ -19,7 +19,7 @@ defaults:
         layout: post
 
 blog:
-    host: tiedaobing.pub
+    host: tiedaobing.cc
     name: 穿军装的石子
     desc: 一个铁道兵的回忆录，讲述青藏铁路一期工程施工连队的故事。
 
