@@ -48,18 +48,18 @@ var site = {
 	Translation: {
 		lang: {
 			en: {
-				name: 'MythArcher Yan',
-				title: 'Web Engineer, Freelancer',
-				works: 'Works',
-				blog: 'Blog',
+				name: '穿军装的石子',
+				title: '一个铁道兵的回忆录，讲述青藏铁路一期工程施工连队的故事。',
+				works: '词谱',
+				blog: '博客',
 				'google-plus': '+me',
 
-				'work-for-free': 'Work for Freedom',
+				'work-for-free': '退役军人，公交司机，厨师',
 				'programming-skills': 'Programming Skills',
 				'using-tools': 'Using Tools',
-				'contact-me': 'Contact Me',
-				'contact-me-description': 'I undertake various types of Web development in long term. If you can provide a payment not lower than $20/h, feel free contact me: ',
-				recently: 'Recently'
+				'contact-me': '联系我',
+				'contact-me-description': '铁道兵是铺在铁路上的石子，承载着钢轨和列车，承载着国家的希望。联系我：',
+				recently: '最近'
 			}
 		},
 	
@@ -360,7 +360,7 @@ elf(function () {
 	}
 	site.Translation.translate(navigator.language || 'zh-CN');
 
-	elf('a.mail').attr('href', elf().template('mailto:#{0}@#{1}', 'mytharcher', 'gmail.com'));
+	elf('a.mail').attr('href', elf().template('mailto:#{0}@#{1}', 'qinglai1957', 'gmail.com'));
 
 	var module = document.body.className.replace(/page-type-/g, '').split(' ');
 	module.forEach(function (item) {
