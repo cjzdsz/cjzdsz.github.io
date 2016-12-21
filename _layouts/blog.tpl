@@ -17,7 +17,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012 <a href="http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o">穿军装的石子</a></p>
+		<p>&copy; Since 2012 <a href="http://tiedaobing.cc">穿军装的石子</a></p>
 	</footer>
 </div>
 
