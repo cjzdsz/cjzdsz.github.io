@@ -32,8 +32,8 @@ blog:
         chapter: 篇章
         
     categories:
-      - name:  chapter
-        title: 目录
+      - name:  blog
+        title: 博客
 
 meta:
     author:

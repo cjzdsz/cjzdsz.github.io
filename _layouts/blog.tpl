@@ -26,6 +26,7 @@
 	<nav class="block">
 		<ul>
 		<li class="works"><a href="/works/">词谱</a></li>
+		<li class="articles"><a href="/articles/">目录</a></li>
 		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
 		<li class="contact"><a href="/contact/">关于我及合作</a></li>
