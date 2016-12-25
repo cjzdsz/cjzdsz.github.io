@@ -10,7 +10,7 @@ defaults:
         path: blog/_posts
         type: posts
     values:
-        permalink: blog/posts/:title
+        permalink: blog/:title
         layout: post
   -
     scope:
