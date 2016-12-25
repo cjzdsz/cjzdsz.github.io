@@ -29,7 +29,7 @@ blog:
     desc: 一个铁道兵的回忆录，讲述青藏铁路一期工程施工连队的故事。
 
     category:
-        chapter: 篇章
+        articles: 篇章
         contact: 关于我
         blog: 博客
         
