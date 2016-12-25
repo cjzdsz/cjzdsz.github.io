@@ -30,6 +30,8 @@ blog:
 
     category:
         chapter: 篇章
+        contact: 关于我
+        blog: 博客
         
     categories:
       - name:  blog
