@@ -3,7 +3,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ site.name }}</title>
-	<link href="http://{{ site.blog.host }}/blog/feed.xml" rel="self" />
+	<link href="http://{{ site.blog.host }}/articles/feed.xml" rel="self" />
 	<link href="http://{{ site.blog.host }}/" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://{{ site.blog.host }}/</id>
@@ -11,7 +11,7 @@
 		<name>{{ site.meta.author.name }}</name>
 		<email>{{ site.meta.author.email }}</email>
 	</author>
-	{% for post in site.categories.blog limit:10 %}
+	{% for post in site.categories.articles limit:10 %}
 	<entry>
 		<title>{{ post.title | xml_escape }}</title>
 		<link href="http://{{ site.blog.host }}{{ post.url }}" />
