@@ -28,6 +28,7 @@
 		<li class="works"><a href="/works/">词谱</a></li>
 		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
+		<li class="contact"><a href="/contact/">关于我及合作</a></li>
 		</ul>
 	</nav>
 	
@@ -42,9 +43,13 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>微信公众号：穿军装的石子</p>
 		<p>铁道兵是铺在铁路上的石子，承载着钢轨和列车，承载着国家的希望。</p>
 	</div>
+	
+	<div class="block block-wechat">
+		<h3>微信公众号：穿军装的石子</h3>
+		<p></p>
+	</div>	
 	
 	<div class="block block-license">
 		<h3>版权申明</h3>
