@@ -41,7 +41,7 @@ meta:
         email: qinglai1957@gmail.com
         disqus: cjzdsz                              # Disqus缩略标识
         gcse: 1                                     # Google自定义搜索标识ID
-        github: qinglai1957@gmail                   # 微博账号
+        github: 3475651552                          # 微博账号
         gravatar: 38836deab9f6833754cd8f34f1f2cbf3  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
