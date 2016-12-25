@@ -27,7 +27,7 @@
 		<ul>
 		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
-		<li class="discovery"><a href="/discovery/">发现</a></li>
+		<li class="discovery"><a href="/discovery/">关于我及合作</a></li>
 		</ul>
 	</nav>
 	
@@ -48,7 +48,7 @@
 	
 	<div class="block block-license">
 		<h3>版权申明</h3>
-		<p>本网站所刊载的所有内容，包括但不限于文字、照片、影像、插图、图表、视频等素材，均受《中华人民共和国著作权法》、《中华人民共和国著作权法实施细则》及国际著作权公约的保护。著作权登记【鲁作登字-2014-A-005026】</p>
+		<p>著作权登记【鲁作登字-2014-A-005026】</p>
 	</div>
 	
 	<div class="block block-thank">
