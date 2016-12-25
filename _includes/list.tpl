@@ -1,7 +1,6 @@
 {% include header.tpl %}
 
-{% assign sorted_posts = list | sort: 'date'  %}
-{% for post in sorted_posts limit:limitation %}
+{% for post in list limit:limitation %}
 
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
