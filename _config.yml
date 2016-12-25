@@ -17,6 +17,11 @@ defaults:
         path: contact/_posts
     values:
         layout: post
+  -
+    scope:
+        path: articles/_posts
+    values:
+        layout: post        
 
 blog:
     host: tiedaobing.cc
@@ -24,7 +29,7 @@ blog:
     desc: 一个铁道兵的回忆录，讲述青藏铁路一期工程施工连队的故事。
 
     category:
-        chapter: 目录
+        chapter: 篇章
         
     categories:
       - name:  chapter
