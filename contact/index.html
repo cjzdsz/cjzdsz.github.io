@@ -3,7 +3,7 @@ layout: list
 ---
 
 <!-- 首页即博客列表 -->
-{% assign list = site.categories.contact %}
+{% assign list = site.categories.contact | sort: 'date' | reversed %}
 {% assign limitation = 10 %}
 
 {% include header.tpl %}
