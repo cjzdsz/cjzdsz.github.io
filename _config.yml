@@ -25,17 +25,10 @@ blog:
 
     category:
         chapter: 目录
-        poetry: 词谱
-        blog: 博客
+        
     categories:
       - name:  chapter
         title: 目录
-        
-      - name:  poetry
-        title: 词谱        
-
-      - name:  blog
-        title: 博客
 
 meta:
     author:

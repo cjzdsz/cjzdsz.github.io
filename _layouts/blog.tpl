@@ -25,9 +25,9 @@
 	<h2><a href="/"><i class="fa fa-home"></i></a> / <a href="/blog/">{{ site.blog.name }}</a><a href="/blog/feed.xml" class="feed-link" title="Subscribe"><i class="fa fa-rss-square"></i></a></h2>
 	<nav class="block">
 		<ul>
+		<li class="works"><a href="/works/">词谱</a></li>
 		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
-		<li class="discovery"><a href="/discovery/">关于我及合作</a></li>
 		</ul>
 	</nav>
 	
