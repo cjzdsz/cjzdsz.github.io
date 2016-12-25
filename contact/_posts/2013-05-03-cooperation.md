@@ -2,7 +2,7 @@
 date: 2013-05-03
 layout: post
 title: 合作事宜
-category: discovery
+category: contact
 tags:
 - cooperation
 - 合作

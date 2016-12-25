@@ -2,7 +2,7 @@
 date: 2013-05-02
 layout: post
 title: 著作权申明
-category: discovery
+category: contact
 tags:
 - copyright
 - 著作权申明
