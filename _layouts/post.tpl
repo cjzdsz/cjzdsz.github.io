@@ -16,6 +16,5 @@ pageClass: page-type-post
 	-->
 </article>
 <div id="disqus_thread" class="comments"></div>
-<!--
+
 {% include adsbygoogle.tpl %}
--->
