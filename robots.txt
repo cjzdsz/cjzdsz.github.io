@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /assets/
+
+Sitemap: http://tiedaobing.cc/sitemap_google.xml
