@@ -12,7 +12,7 @@
 </head>
 
 <body class="{% if page.pageClass %}{{ page.pageClass }}{% else %}{{ layout.pageClass }}{% endif %}">
-
+{% include baidu_js_push.tpl %}
 <div class="main">
 	{{ content }}
 
