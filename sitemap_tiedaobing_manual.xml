@@ -1,5 +1,8 @@
 ---
 ---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset>
 {% for post in site.categories.articles limit:100 %}
 http://{{ site.blog.host }}{{ post.url }}.html
 {% endfor %}
+</urlset>
