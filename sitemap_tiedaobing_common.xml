@@ -1,5 +1,3 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
 <urlset> 
 	{% for post in site.categories.articles limit:100 %}
