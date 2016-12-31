@@ -1,13 +1,13 @@
 ---
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 	{% for post in site.categories.articles limit:100 %}
 	<url> 
 		<loc>http://{{ site.blog.host }}{{ post.url }}</loc>
 		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.8</priority>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
 	</url>
 	{% endfor %}
 </urlset>
