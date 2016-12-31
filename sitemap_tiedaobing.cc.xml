@@ -1,0 +1,14 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/"> 
+	{% for post in site.categories.articles limit:100 %}
+	<url> 
+		<loc>http://{{ site.blog.host }}{{ post.url }}.html</loc> 
+		<mobile:mobile type="pc,mobile"/>
+		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	{% endfor %}
+</urlset>
