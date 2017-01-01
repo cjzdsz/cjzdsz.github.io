@@ -17,7 +17,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012 <a href="http://tiedaobing.cc">穿军装的石子</a></p>
+		<p>Copyright &copy; {{ site.time | date: "%Y" }} <a href="http://tiedaobing.cc">穿军装的石子</a></p>. All rights reserved. 
 	</footer>
 </div>
 
