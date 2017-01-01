@@ -66,7 +66,7 @@
 			<a href="http://en.gravatar.com/" target="_blank" title="统一头像标识服务">Gravatar</a>,
 			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
-			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
+			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>,
 			<a href="http://fontawesome.io/icons/" target="_blank">Font Awesome</a>
 		</p>
 	</div>
