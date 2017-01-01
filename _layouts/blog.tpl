@@ -43,7 +43,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>铁道兵是铺在铁路上的石子，承载着钢轨和列车，承载着国家的希望。</p>
+		<p>铁道兵（1953-1982）是铺在铁路上的石子，承载着钢轨和列车，承载着国家的希望。</p>
 	</div>
 	
 	<div class="block block-wechat">
