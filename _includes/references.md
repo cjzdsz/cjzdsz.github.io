@@ -21,3 +21,4 @@
 [SublimeLinter]: https://github.com/SublimeLinter/SublimeLinter
 [Tangram]: http://tangram.baidu.com/
 [WordPress]: http://wordpress.org/
+[Font Awesome]: http://fontawesome.io/icons/
