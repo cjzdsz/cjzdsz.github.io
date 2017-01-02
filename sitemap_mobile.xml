@@ -7,7 +7,7 @@
 		<loc>http://{{ site.blog.host }}{{ post.url }}.html</loc> 
 		<mobile:mobile type="pc,mobile"/>
 		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-		<changefreq>yearly</changefreq>
+		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	{% endfor %}
