@@ -99,11 +99,11 @@ var site = {
 			}
 
 			function setLightColor() {
-				elf('#page').css('background-color', 'rgba(85,85,85,' + getDayLight() + ')');
+				elf('#page').css('background-color', 'rgba(185,185,185,' + getDayLight() + ')');
 				textColorBase = 0x4d;
 				textColorDelta = 0x80;
 				textColor = Math.round(textColorBase + textColorDelta * getDayLight());
-				// console.log(textColor);
+				 console.log("textColor="+textColor);
 				elf('#card header').css('color', 'rgb(' + textColor + ',' + textColor + ',' + textColor + ')');
 			}
 
