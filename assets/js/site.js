@@ -54,11 +54,11 @@ var site = {
 				blog: '博客',
 				'google-plus': '+me',
 
-				'work-for-free': '退役军人，公交司机，厨师',
+				'work-for-free': '',
 				'programming-skills': 'Programming Skills',
 				'using-tools': 'Using Tools',
 				'contact-me': '联系我',
-				'contact-me-description': '铁道兵是铺在铁路上的石子，承载着钢轨和列车，承载着国家的希望。联系我：',
+				'contact-me-description': '铁道兵是铺在铁路上的石子，承载着钢轨和列车，承载着国家的希望。',
 				recently: '最近'
 			}
 		},
@@ -99,11 +99,11 @@ var site = {
 			}
 
 			function setLightColor() {
-				elf('#page').css('background-color', 'rgba(185,185,185,' + getDayLight() + ')');
+				elf('#page').css('background-color', 'rgba(150,150,150,' + getDayLight() + ')');
 				textColorBase = 0x4d;
 				textColorDelta = 0x80;
 				textColor = Math.round(textColorBase + textColorDelta * getDayLight());
-				 console.log("textColor="+textColor);
+				//console.log("textColor="+textColor);
 				elf('#card header').css('color', 'rgb(' + textColor + ',' + textColor + ',' + textColor + ')');
 			}
 
