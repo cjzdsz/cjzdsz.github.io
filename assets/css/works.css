@@ -457,7 +457,7 @@ aside .block a{margin:0;}
 		padding-left: 0;
 	}
 	#timeline:before{
-		left: 10%;
+		left: 50%;
 		margin-left: -2px;
 	}
 	#timeline p.line-end{
