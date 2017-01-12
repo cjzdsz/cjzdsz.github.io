@@ -82,8 +82,8 @@ li#link-wechat span{top: 0;}
 	#link-mail{left: 420px; top: 0;}
 	#link-wechat{left: 630px; top: 0;}
 	#link-github{left: 420px; top: 105px;}
-	#link-google-plus{left: 525px; top: 105px;}
-	#link-more{left: 630px; top: 105px;}
+	#link-google-plus{left: 630px; top: 105px;}
+	#link-more{left: 525px; top: 105px;}
 	#card ul{
 		-webkit-transition: width ease .5s;
 		-moz-transition: width ease .5s;
