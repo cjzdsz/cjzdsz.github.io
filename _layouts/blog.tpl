@@ -6,7 +6,6 @@
 {% include head.tpl %}
 <link href="http://{{ site.blog.host }}/blog/feed.xml" rel="alternate" title="{{ site.blog.name }}" type="application/atom+xml" />
 <link rel="stylesheet" type="text/css" href="/assets/css/blog.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/code/sunburst.css" />
 {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ style }}" />
 {% endfor %}
@@ -48,9 +47,15 @@
 	</div>
 	
 	<div class="block block-wechat">
+		<!--
 		<li id="link-wechat" class="quarter">
-		<a href="http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o" title="WeChat"><i class="fa fa-weixin"></i><span id="qrcode"></span></a>
+		<a href="http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o" title="WeChat"><i class="fa fa-weixin"></i>
+		-->
+		<span id="qrcode"></span>
+		<!--
+		</a>
 		</li>
+		-->
 		<h3>微信公众号：穿军装的石子</h3>
 		<p></p>
 	</div>	
@@ -78,7 +83,11 @@
 
 <script type="text/javascript" src="/assets/js/elf-0.5.0.min.js"></script>
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
-<script type="text/javascript" src="/assets/js/qrcode.min.js"></script>
+<script type='text/javascript' src='http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<script>
+	jQuery(document).ready(function(){jQuery('#qrcode').qrcode({width: 95,height: 95,text: "http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o"});});
+</script>
 <script src="/assets/js/site.js"></script>
 {% for script in page.scripts %}<script src="{{ script }}"></script>
 {% endfor %}
