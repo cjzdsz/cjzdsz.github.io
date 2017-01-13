@@ -17,18 +17,18 @@
 	{{ content }}
 
 	<footer>
-		<p>Copyright &copy; {{ site.time | date: "%Y" }} <a href="http://tiedaobing.cc">穿军装的石子</a>. All rights reserved.</p>
+		<p>Copyright &copy; {{ site.time | date: "%Y" }} <a href="http://{{ site.blog.host }}">穿军装的石子</a>. All rights reserved.</p>
 	</footer>
 </div>
 
 <aside>
 	<h2><a href="/"><i class="fa fa-home"></i></a> / <a href="/articles/">{{ site.blog.name }}</a><a href="/articles/feed.xml" class="feed-link" title="Subscribe"><i class="fa fa-rss-square"></i></a></h2>
 	<nav class="block">
-		<ul>
-		<li class="works"><a href="/works/">词谱</a></li>
+		<ul>		
 		<li class="articles"><a href="/articles/archive">目录</a></li>
 		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
+		<li class="works"><a href="/works/">词谱</a></li>
 		<li class="contact"><a href="/contact/">关于我及合作</a></li>
 		</ul>
 	</nav>
@@ -47,6 +47,9 @@
 	</div>
 	
 	<div class="block block-wechat">
+		<li id="link-wechat" class="quarter">
+		<a href="http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o" title="WeChat"><i class="fa fa-weixin"></i><span id="qrcode"></span></a>
+		</li>
 		<h3>微信公众号：穿军装的石子</h3>
 		<p></p>
 	</div>	
