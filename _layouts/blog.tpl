@@ -47,15 +47,7 @@
 	</div>
 	
 	<div class="block block-wechat">
-		<!--
-		<li id="link-wechat" class="quarter">
-		<a href="http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o" title="WeChat"><i class="fa fa-weixin"></i>
-		-->
 		<span id="qrcode"></span>
-		<!--
-		</a>
-		</li>
-		-->
 		<h3>微信公众号：穿军装的石子</h3>
 		<p></p>
 	</div>	
