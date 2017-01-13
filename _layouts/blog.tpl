@@ -6,6 +6,7 @@
 {% include head.tpl %}
 <link href="http://{{ site.blog.host }}/blog/feed.xml" rel="alternate" title="{{ site.blog.name }}" type="application/atom+xml" />
 <link rel="stylesheet" type="text/css" href="/assets/css/blog.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/code/sunburst.css" />
 {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ style }}" />
 {% endfor %}
