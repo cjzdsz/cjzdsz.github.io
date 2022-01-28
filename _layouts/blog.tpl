@@ -47,9 +47,9 @@
 	</div>
 	
 	<div class="block block-wechat">
-		<span id="qrcode"></span>
-		<h3>微信公众号：穿军装的石子</h3>
-		<p></p>
+		<!--<span id="qrcode"></span>-->
+		<img width="100%" src="/assets/images/wechat/qrcode_for_cjzdsz.jpg" />
+		<!--<h3>微信公众号：穿军装的石子</h3>-->		
 	</div>	
 	
 	<div class="block block-license">

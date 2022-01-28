@@ -4,4 +4,4 @@
 > **版权信息** 
 > 个人博客，所有博客文章属于作者原创。
 > 著作权登记【鲁作登字-2014-A-005026】
-> © Since 2012 穿军装的石子. All rights reserverd.
+> © Since 2012 - present 穿军装的石子. All rights reserverd.
