@@ -29,7 +29,7 @@
 		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
 		<li class="works"><a href="/works/">词谱</a></li>
-		<li class="contact"><a href="/contact/">关于我及合作</a></li>
+		<li class="contact"><a href="/contact/">关于我</a></li>
 		</ul>
 	</nav>
 	
