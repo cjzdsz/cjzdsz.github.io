@@ -74,9 +74,9 @@
 </aside>
 
 <script type="text/javascript" src="/assets/js/elf-0.5.0.min.js"></script>
-<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
-<script type='text/javascript' src='http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
-<script type="text/javascript" src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<script src="https://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+<script type='text/javascript' src='https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
 <script>
 	jQuery(document).ready(function(){jQuery('#qrcode').qrcode({width: 95,height: 95,text: "http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o"});});
 </script>
